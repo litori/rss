@@ -85,7 +85,7 @@
                          (adsbygoogle = window.adsbygoogle || []).push({});
                     </component>
                         <div class="px-4">
-                            <hr class="dark:border-gray-700">
+                            <br><hr class="dark:border-gray-700"><br>
                         </div>             
                 
                 <div class="flex items-center justify-between mb-2">
