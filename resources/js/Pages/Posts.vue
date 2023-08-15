@@ -36,6 +36,22 @@
                 </div>
 
                 <div class="mb-8">
+                    <h2 class="font-bold dark:text-gray-400">Ad</h2>
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6656872145113265"
+                         crossorigin="anonymous"></script>
+                    <!-- Left Panel -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-6656872145113265"
+                         data-ad-slot="3292062186"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                
+                <div class="mb-8">
                     <h2 class="font-bold dark:text-gray-400">Disclosures</h2>
                     <div class="font-mono text-gray-600 dark:text-gray-500 text-xs my-1 whitespace-normal w-full">
                         This website is supported by display of ads. You can read more about the ads displayed on this website in the Privacy Policy section, https://milesfeed.com/privacy-policy/
@@ -55,7 +71,22 @@
         <div class="md:w-2/3 xl:w-3/4 px-6 md:px-12 md:overflow-auto md:h-full py-2">
             <div :class="{'max-w-lg': postFormat === 'card', 'max-w-2xl': postFormat === 'list', 'w-full': postFormat === 'compact'}">
 
+                
                 <div class="flex items-center justify-between mb-2">
+                                    
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6656872145113265"
+                         crossorigin="anonymous"></script>
+                    <!-- Right Panel Top -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-6656872145113265"
+                         data-ad-slot="8959569250"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                    
                     <h2 class="font-bold text-black dark:text-gray-400">
                         <Link href="./">Posts</Link>
                         <span v-if="tag"> / #{{ tag }}</span>
