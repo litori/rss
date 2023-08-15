@@ -84,12 +84,11 @@
                     <component is="script">
                          (adsbygoogle = window.adsbygoogle || []).push({});
                     </component>
-                    
-                
-                <div class="flex items-center justify-between mb-2">
                         <div class="px-4">
                             <hr class="dark:border-gray-700">
-                        </div>
+                        </div>             
+                
+                <div class="flex items-center justify-between mb-2">
                     <h2 class="font-bold text-black dark:text-gray-400">
                         <Link href="./">Posts</Link>
                         <span v-if="tag"> / #{{ tag }}</span>
