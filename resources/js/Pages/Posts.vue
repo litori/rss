@@ -71,9 +71,7 @@
         <div class="md:w-2/3 xl:w-3/4 px-6 md:px-12 md:overflow-auto md:h-full py-2">
             <div :class="{'max-w-lg': postFormat === 'card', 'max-w-2xl': postFormat === 'list', 'w-full': postFormat === 'compact'}">
 
-                
-                <div class="flex items-center justify-between mb-2">
-                                    
+                                                    
                     <component is="script" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6656872145113265"
                          crossorigin="anonymous"></component>
                     <!-- Right Panel Top -->
@@ -87,6 +85,9 @@
                          (adsbygoogle = window.adsbygoogle || []).push({});
                     </component>
                     
+                
+                <div class="flex items-center justify-between mb-2">
+
                     <h2 class="font-bold text-black dark:text-gray-400">
                         <Link href="./">Posts</Link>
                         <span v-if="tag"> / #{{ tag }}</span>
