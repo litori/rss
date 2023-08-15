@@ -87,7 +87,9 @@
                     
                 
                 <div class="flex items-center justify-between mb-2">
-
+                        <div class="px-4">
+                            <hr class="dark:border-gray-700">
+                        </div>
                     <h2 class="font-bold text-black dark:text-gray-400">
                         <Link href="./">Posts</Link>
                         <span v-if="tag"> / #{{ tag }}</span>
