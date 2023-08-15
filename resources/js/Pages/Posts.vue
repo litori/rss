@@ -36,6 +36,13 @@
                 </div>
 
                 <div class="mb-8">
+                    <h2 class="font-bold dark:text-gray-400">Disclosures</h2>
+                    <div class="font-mono text-gray-600 dark:text-gray-500 text-xs my-1 overflow-ellipsis whitespace-nowrap w-full overflow-hidden">
+                        This website is supported by display of ads. You can read more about the ads displayed on this website in the Privacy Policy section, https://milesfeed.com/privacy-policy/
+                    </div>
+                </div>
+
+                <div class="mb-8">
                     <h2 class="font-bold dark:text-gray-400">Feeds</h2>
                     <template v-for="feed in feeds">
                         <Feed :feed="feed"/>
