@@ -37,8 +37,8 @@
 
                 <div class="mb-8">
                     <h2 class="font-bold dark:text-gray-400">Ad</h2>
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6656872145113265"
-                         crossorigin="anonymous"></script>
+                    <component is="script" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6656872145113265"
+                         crossorigin="anonymous"></component>
                     <!-- Left Panel -->
                     <ins class="adsbygoogle"
                          style="display:block"
@@ -46,9 +46,9 @@
                          data-ad-slot="3292062186"
                          data-ad-format="auto"
                          data-full-width-responsive="true"></ins>
-                    <script>
+                    <component is="script">
                          (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+                    </component>
                 </div>
                 
                 <div class="mb-8">
@@ -74,8 +74,8 @@
                 
                 <div class="flex items-center justify-between mb-2">
                                     
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6656872145113265"
-                         crossorigin="anonymous"></script>
+                    <component is="script" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6656872145113265"
+                         crossorigin="anonymous"></component>
                     <!-- Right Panel Top -->
                     <ins class="adsbygoogle"
                          style="display:block"
@@ -83,9 +83,9 @@
                          data-ad-slot="8959569250"
                          data-ad-format="auto"
                          data-full-width-responsive="true"></ins>
-                    <script>
+                    <component is="script">
                          (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+                    </component>
                     
                     <h2 class="font-bold text-black dark:text-gray-400">
                         <Link href="./">Posts</Link>
