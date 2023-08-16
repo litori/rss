@@ -52,7 +52,7 @@
                 </div>
 
                 <div class="mb-8">
-                    <h2 class="font-bold dark:text-gray-400">Message us on Twitter</h2>
+                    <h2 class="font-bold dark:text-gray-400">Add a Website/Blog?</h2>
                     <div class="font-mono text-gray-600 dark:text-gray-500 text-xs my-1 whitespace-normal w-full">
                         <a href="https://twitter.com/messages/compose?recipient_id=715401342949285888">Message us on Twitter</a>, if you wish to have a blog added.  We'll get back to you ASAP.
                     </div>
