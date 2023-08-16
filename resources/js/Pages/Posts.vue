@@ -54,14 +54,14 @@
                 <div class="mb-8">
                     <h2 class="font-bold dark:text-gray-400">Add a Website/Blog?</h2>
                     <div class="font-mono text-gray-600 dark:text-gray-500 text-xs my-1 whitespace-normal w-full">
-                        <a href="https://twitter.com/messages/compose?recipient_id=715401342949285888">Message us on Twitter</a>, if you wish to have a blog added.  We'll get back to you ASAP.
+                        <a href="https://twitter.com/messages/compose?recipient_id=715401342949285888" target="_blank">Message us on Twitter</a>, if you wish to have a blog added.  We'll get back to you ASAP.
                     </div>
                 </div>
                 
                 <div class="mb-8">
                     <h2 class="font-bold dark:text-gray-400">Disclosures</h2>
                     <div class="font-mono text-gray-600 dark:text-gray-500 text-xs my-1 whitespace-normal w-full">
-                        This website is supported by display of ads. You can read more about the ads displayed on this website in the Privacy Policy section, https://milesfeed.com/privacy-policy/
+                        This website is supported by display of ads. You can read more about the ads displayed on this website in the Privacy Policy section, <a href="https://milesfeed.com/privacy-policy/" target="_blank">https://milesfeed.com/privacy-policy/</a>
                     </div>
                 </div>
 
