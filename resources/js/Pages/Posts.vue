@@ -52,9 +52,16 @@
                 </div>
 
                 <div class="mb-8">
+                    <h2 class="font-bold dark:text-gray-400">Like the old Milesfeed?</h2>
+                    <div class="font-mono text-gray-600 dark:text-gray-500 text-xs my-1 whitespace-normal w-full">
+                        <a href="https://old.milesfeed.com" target="_blank">Old Milesfeed can be found at old.milesfeed.com</a>
+                    </div>
+                </div>
+
+                <div class="mb-8">
                     <h2 class="font-bold dark:text-gray-400">Add a Website/Blog?</h2>
                     <div class="font-mono text-gray-600 dark:text-gray-500 text-xs my-1 whitespace-normal w-full">
-                        <a href="https://twitter.com/messages/compose?recipient_id=715401342949285888" target="_blank">Message us on Twitter</a>, if you wish to have a blog added.  We'll get back to you ASAP.
+                        <a href="https://twitter.com/messages/compose?recipient_id=715401342949285888" target="_blank">Message us on Twitter</a>, if you wish to have a website/blog added.  We'll get back to you ASAP.
                     </div>
                 </div>
                 
@@ -71,6 +78,22 @@
                         <Feed :feed="feed"/>
                         <hr class="last:hidden dark:border-gray-700">
                     </template>
+                </div>
+
+                <div class="mb-8">
+                    <h2 class="font-bold dark:text-gray-400">Ad</h2>
+                    <component is="script" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6656872145113265"
+                         crossorigin="anonymous"></component>
+                    <!-- Left Panel Bottom -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-6656872145113265"
+                         data-ad-slot="9403310439"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <component is="script">
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </component>
                 </div>
 
             </div>
