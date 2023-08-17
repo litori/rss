@@ -29,10 +29,7 @@
                 </div>
                 
                 <div class="mb-8">
-                    <h2 class="font-bold dark:text-gray-400">Like the original Milesfeed?</h2>
-                    <div class="font-mono text-gray-600 dark:text-gray-500 text-xs my-1 whitespace-normal w-full">
-                        <a href="https://old.milesfeed.com" target="_blank">Find it here: old.milesfeed.com</a>
-                    </div>
+                    <h2 class="font-bold dark:text-gray-400"><a href="https://old.milesfeed.com" target="_blank">Go Back Home</a></h2>
                 </div>
 
                 <div class="mb-8">
