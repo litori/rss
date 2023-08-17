@@ -29,7 +29,7 @@
                 </div>
                 
                 <div class="mb-8">
-                    <h2 class="font-bold dark:text-gray-400"><a href="https://old.milesfeed.com" target="_blank">Go Back Home</a></h2>
+                    <h2 class="font-bold dark:text-gray-400"><a href="https://www.milesfeed.com" target="_blank">Go Back Home</a></h2>
                 </div>
 
                 <div class="mb-8">
