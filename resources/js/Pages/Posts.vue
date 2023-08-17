@@ -27,6 +27,27 @@
                         <button type="submit" class="hidden"></button>
                     </form>
                 </div>
+                
+                <div class="mb-8">
+                    <h2 class="font-bold dark:text-gray-400">Like the original Milesfeed?</h2>
+                    <div class="font-mono text-gray-600 dark:text-gray-500 text-xs my-1 whitespace-normal w-full">
+                        <a href="https://old.milesfeed.com" target="_blank">Find it here: old.milesfeed.com</a>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <h2 class="font-bold dark:text-gray-400">Add a Website/Blog?</h2>
+                    <div class="font-mono text-gray-600 dark:text-gray-500 text-xs my-1 whitespace-normal w-full">
+                        <a href="https://twitter.com/messages/compose?recipient_id=715401342949285888" target="_blank">Message us on Twitter</a> if you wish to have a website/blog added.
+                    </div>
+                </div>
+                
+                <div class="mb-8">
+                    <h2 class="font-bold dark:text-gray-400">Disclosures</h2>
+                    <div class="font-mono text-gray-600 dark:text-gray-500 text-xs my-1 whitespace-normal w-full">
+                        This website is supported by display of ads. You can read more about the ads displayed on this website in the Privacy Policy section, <a href="https://milesfeed.com/privacy-policy/" target="_blank">https://milesfeed.com/privacy-policy/</a>
+                    </div>
+                </div>
 
                 <div v-if="tags.length > 0" class="mb-8">
                     <h2 class="font-bold mb-2 dark:text-gray-400">Tags</h2>
@@ -51,26 +72,6 @@
                     </component>
                 </div>
 
-                <div class="mb-8">
-                    <h2 class="font-bold dark:text-gray-400">Like the old Milesfeed?</h2>
-                    <div class="font-mono text-gray-600 dark:text-gray-500 text-xs my-1 whitespace-normal w-full">
-                        <a href="https://old.milesfeed.com" target="_blank">Old Milesfeed can be found at old.milesfeed.com</a>
-                    </div>
-                </div>
-
-                <div class="mb-8">
-                    <h2 class="font-bold dark:text-gray-400">Add a Website/Blog?</h2>
-                    <div class="font-mono text-gray-600 dark:text-gray-500 text-xs my-1 whitespace-normal w-full">
-                        <a href="https://twitter.com/messages/compose?recipient_id=715401342949285888" target="_blank">Message us on Twitter</a>, if you wish to have a website/blog added.  We'll get back to you ASAP.
-                    </div>
-                </div>
-                
-                <div class="mb-8">
-                    <h2 class="font-bold dark:text-gray-400">Disclosures</h2>
-                    <div class="font-mono text-gray-600 dark:text-gray-500 text-xs my-1 whitespace-normal w-full">
-                        This website is supported by display of ads. You can read more about the ads displayed on this website in the Privacy Policy section, <a href="https://milesfeed.com/privacy-policy/" target="_blank">https://milesfeed.com/privacy-policy/</a>
-                    </div>
-                </div>
 
                 <div class="mb-8">
                     <h2 class="font-bold dark:text-gray-400">Feeds</h2>
@@ -144,6 +145,22 @@
                     <Link v-if="page > 1" :href="pagePath" :data="{page: page-1}" class="cursor-pointer text-gray-600 dark:text-gray-500 dark:hover:text-gray-300 font-bold py-2 hover:text-black">&laquo; Previous Page</Link>
                     <Link v-if="posts.length === 100" :href="pagePath" :data="{page: page + 1}" class="ml-auto cursor-pointer text-gray-600 dark:text-gray-500 dark:hover:text-gray-300 font-bold py-2 hover:text-black">Next Page &raquo;</Link>
                 </div>
+
+                <div class="px-4">
+                    <br><hr class="dark:border-gray-700"><br>
+                </div>
+                    <component is="script" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6656872145113265"
+                         crossorigin="anonymous"></component>
+                    <!-- Right Panel Bottom -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-6656872145113265"
+                         data-ad-slot="6038000245"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <component is="script">
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </component>
 
             </div>
         </div>
